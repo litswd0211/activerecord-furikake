@@ -1,10 +1,8 @@
-# frozen_string_literal: true
-
-require_relative "furikake/version"
+require "activerecord/furikake/version"
+require "activerecord/furikake/railtie"
 
 module Activerecord
   module Furikake
-    class Error < StandardError; end
     # Your code goes here...
   end
 end
